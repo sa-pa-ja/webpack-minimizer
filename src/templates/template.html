@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta
+      name="description"
+      content="<%= htmlWebpackPlugin.options.description %>"
+    />
+    <meta name="keywords" content="<%= htmlWebpackPlugin.options.keywords %>" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= htmlWebpackPlugin.options.og_url %>" />
+    <meta
+      property="og:title"
+      content="<%= htmlWebpackPlugin.options.og_title %>"
+    />
+    <meta
+      property="og:description"
+      content="<%= htmlWebpackPlugin.options.og_description %>"
+    />
+    <meta
+      property="og:image"
+      content="<%= htmlWebpackPlugin.options.og_image %>"
+    />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="<%= htmlWebpackPlugin.options.og_url %>"
+    />
+    <meta
+      property="twitter:title"
+      content="<%= htmlWebpackPlugin.options.og_title %>"
+    />
+    <meta
+      property="twitter:description"
+      content="<%= htmlWebpackPlugin.options.og_description %>"
+    />
+    <meta
+      property="twitter:image"
+      content="<%= htmlWebpackPlugin.options.og_image %>"
+    />
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="assets/images/favicon.ico" /> -->
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a href="http://" class="navbar-brand">
+            <img id="logo">
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="card" style="width: 18rem">
+        <img class="card-img-top" id="htc" />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <section>
+        <div class="container text-center">
+          <strong class="h4"
+            ><span class="text-capitalize text-warning"
+              >Horseback Trail Cusco</span
+            >
+            – An Unforgettable Journey Through the Andes</strong
+          >
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 mt-4">
+              <p class="text-justify">
+                Welcome to Horseback Trail Cusco, where adventure and nature
+                come together in the breathtaking landscapes of the Peruvian
+                Andes. Ride through ancient trails, explore hidden valleys, and
+                experience the magic of Cusco from a truly unique perspective.
+                Our carefully trained horses and experienced guides ensure a
+                smooth, safe, and immersive journey, whether you’re an
+                experienced rider or a first-time adventurer
+              </p>
+              <p class="text-justify">
+                Feel the spirit of the Andes as you gallop along paths once
+                traveled by the Incas, surrounded by towering mountains and
+                stunning panoramic views. This isn’t just a horseback ride—it’s
+                a connection to history, nature, and the timeless beauty of
+                Peru. Escape the ordinary and embrace the thrill of exploration.
+                Your unforgettable equestrian adventure begins here.
+              </p>
+
+              <button type="button" class="btn btn-outline-danger btn-lg my-4">
+                <a href="http://">Packages</a
+                ><i class="bi bi-arrow-right-short ms-1"></i>
+              </button>
+            </div>
+
+            <div class="col-sm-12 col-md-6 mt-4 position-relative">
+              <img id="hj" class="rounded img-fluid w-100" />
+              <div
+                class="container position-absolute bottom-0 start-50 translate-middle-x bg-dark bg-opacity-50 text-white text-center py-2 rounded"
+              >
+                <div class="row">
+                  <div class="col">6 Destinations</div>
+                  <div class="col">5 Itineraries</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <i class="bi bi-4-circle-fill"></i>
+      <button type="button" class="btn btn-dark">Dark</button>
+    </footer>
+  </body>
+</html>

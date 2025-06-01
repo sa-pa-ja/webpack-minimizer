@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="120" viewBox="0 0 400 120" role="img" aria-label="Go Peru Now - Travel Agency Logo">
+  <!-- SEO Metadata (Error-Free Version) -->
+  <title>Go Peru Now - Premium Peru Travel Agency</title>
+  <desc>Specializing in unforgettable Peruvian adventures, from Machu Picchu to the Amazon. Book your dream trip today.</desc>
+  
+  <!-- Structured Data without RDF Errors -->
+  <metadata>
+    <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+      <slices></slices>
+      <sliceSourceBounds bottomLeftOrigin="true" height="120" width="400" x="0" y="0"></sliceSourceBounds>
+    </sfw>
+    <!-- Simple Dublin Core without namespace conflicts -->
+    <values>
+      <value key="title">Go Peru Now</value>
+      <value key="description">Travel agency offering curated Peruvian experiences</value>
+      <value key="creator">Your Agency Name</value>
+      <value key="rights">Copyright © 2024 Go Peru Now</value>
+    </values>
+  </metadata>
+
+  <!-- Original Logo Design (Unchanged) -->
+  <text x="30" y="75" font-family="'Brush Script MT', cursive" font-size="50" font-weight="bold" fill="#D91023">GO</text>
+  <text x="97" y="75" font-family="'Brush Script MT', cursive" font-size="50" font-weight="bold" fill="white" stroke="#D91023" stroke-width="1">PERU</text>
+  <text x="240" y="75" font-family="'Brush Script MT', cursive" font-size="50" font-weight="bold" fill="#D91023">NOW</text>
+</svg>

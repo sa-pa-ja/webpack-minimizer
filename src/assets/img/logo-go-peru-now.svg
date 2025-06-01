@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150" width="400" height="150">
+  <!-- SEO Metadata (Properly Escaped) -->
+  <title>Go Peru Now - Premium Peru Travel Agency | Machu Picchu Tours &amp; Amazon Adventures</title>
+  <desc>Official logo of Go Peru Now travel specialists. Book authentic Peru tours to Machu Picchu, Cusco, Sacred Valley, and Amazon rainforest with local experts.</desc>
+  <metadata>
+    <!-- Simplified valid metadata -->
+    <keywords>Machu Picchu Tours, Peru Travel Agency, Amazon Rainforest Trips, Inca Trail Packages</keywords>
+  </metadata>
+
+  <!-- ===== ORIGINAL VISUAL DESIGN ===== -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D3557"/>
+      <stop offset="100%" stop-color="#E63946"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="150" fill="url(#gradient)" rx="10"/>
+  
+  <g transform="translate(20, 20) scale(0.9)">
+    <circle cx="60" cy="50" r="30" fill="#F1C40F" stroke="white" stroke-width="2"/>
+    <path d="M60,20 Q80,30 60,40 Q40,30 60,20" fill="white"/>
+    <path d="M30,50 Q20,70 30,80 Q40,70 30,50" fill="white"/>
+    <path d="M90,50 Q100,70 90,80 Q80,70 90,50" fill="white"/>
+    <path d="M60,80 Q80,90 60,100 Q40,90 60,80" fill="white"/>
+  </g>
+  
+  <text x="220" y="80" font-family="Arial, sans-serif" font-weight="bold" font-size="36" fill="white" text-anchor="middle">
+    <tspan dx="-9">G</tspan>
+    <tspan dx="-5">O</tspan>
+    <tspan dx="5"> PERU</tspan>
+    <tspan fill="#F1C40F" font-size="40"> NOW</tspan>
+  </text>
+  
+  <text x="220" y="110" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" opacity="0.8">
+    ADVENTURE AWAITS • BOOK NOW
+  </text>
+</svg>

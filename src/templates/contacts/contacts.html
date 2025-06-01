@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta
+      name="description"
+      content="<%= htmlWebpackPlugin.options.templateParameters.description %>"
+    />
+    <meta
+      name="keywords"
+      content="<%= htmlWebpackPlugin.options.templateParameters.keywords %>"
+    />
+    <link
+      rel="canonical"
+      href="<%= htmlWebpackPlugin.options.templateParameters.canonical %>"
+    />
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="<%= htmlWebpackPlugin.options.templateParameters.og_title %>"
+    />
+    <meta
+      property="og:description"
+      content="<%= htmlWebpackPlugin.options.templateParameters.og_description %>"
+    />
+    <meta
+      property="og:url"
+      content="<%= htmlWebpackPlugin.options.templateParameters.canonical %>"
+    />
+    <meta
+      property="og:image"
+      content="<%= htmlWebpackPlugin.options.templateParameters.og_image %>"
+    />
+    <!-- Twitter Card -->
+    <meta
+      name="twitter:card"
+      content="<%= htmlWebpackPlugin.options.templateParameters.twitter_card %>"
+    />
+    <meta
+      name="twitter:title"
+      content="<%= htmlWebpackPlugin.options.templateParameters.og_title %>"
+    />
+    <meta
+      name="twitter:description"
+      content="<%= htmlWebpackPlugin.options.templateParameters.og_description %>"
+    />
+    <meta
+      name="twitter:image"
+      content="<%= htmlWebpackPlugin.options.templateParameters.og_image %>"
+    />
+    <meta
+      name="twitter:site"
+      content="<%= htmlWebpackPlugin.options.templateParameters.twitter_site %>"
+    />
+    <!-- Structured Data (add JSON-LD here if needed) -->
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-success-subtle shadow-sm"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold text-success" href="/">
+            Go Peru Now
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/destinations/"
+                  >Destinations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/experiences/"
+                  >Experiences</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="/tours-and-packages/"
+                  >Tours & Packages</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle fw-semibold"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="/about/">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/blog/">Blog</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/faq/">FAQ</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a href="/contacts/" class="btn btn-success fw-bold me-2">
+                Contact Us
+              </a>
+              <a href="#" class="btn btn-outline-success fw-bold"> Top! </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
+<!-- <header>
+      <nav class="container-fluid bg-success-subtle d-none d-lg-block">
+        <div class="container">
+          <div class="row py-2 px-3 d-flex justify-content-between">
+            <div class="col">
+              <ul class="list-inline mb-0 d-flex justify-content-start">
+                <li class="list-inline-item btn btn-light fw-bold">
+                  <a
+                    href="#"
+                    class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                    >Top!</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </nav> -->
+<!-- </header> -->
+<!-- </body> -->
